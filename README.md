@@ -16,7 +16,7 @@ npm i @jeyserver/react-phonenumber-select
 
 ```jsx
 import React, { useState } from 'react'
-import { ReactPhonenumber } from 'reactphonenumber2'
+import ReactPhonenumber from '@jeyserver/react-phonenumber-select'
 
 const countries = [
   { code: 'IR', name: 'Iran', dialingCode: '98' },
