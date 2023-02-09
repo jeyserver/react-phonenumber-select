@@ -1,6 +1,6 @@
 {
   "name": "react-phonenumber-select",
-  "version": "1.1.9",
+  "version": "1.0.0",
   "description": "Telephone number with country selector React component",
   "author": "Mehdi Najafi",
   "license": "MIT",
