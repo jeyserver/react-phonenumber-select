@@ -1,6 +1,6 @@
 {
   "name": "react-phonenumber-select",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Telephone number with country selector React component",
   "author": "Mehdi Najafi",
   "license": "MIT",
@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^17.0.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -33,8 +33,8 @@
     "@types/jest": "^25.1.4",
     "@types/jquery": "^3.5.5",
     "@types/node": "^12.12.38",
-    "@types/react": "^16.9.27",
-    "@types/react-dom": "^16.9.7",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.11",
     "@types/select2": "^4.0.53",
     "@types/uuid": "^8.3.0",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
@@ -55,8 +55,8 @@
     "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-scripts": "^3.4.1",
     "typescript": "^3.7.5"
   },

@@ -27,7 +27,7 @@ interface Props {
   countries: country[]
 }
 
-const useStyles = createUseStyles((props) => ({
+const useStyles = createUseStyles(() => ({
   inputsWrapper: {
     display: 'flex',
     '& .phone-number-input': {
@@ -103,7 +103,7 @@ const ReactPhonenumber: React.FC<Props> = ({
 
   const [randomId, setRandomId] = React.useState<string>(uuidv4())
 
-  const classes = useStyles({ props: 'rtl' })
+  const classes = useStyles()
 
   // handle OnChanges
   const handleOnChangePhoneNumberValue = (
